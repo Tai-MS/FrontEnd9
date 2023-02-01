@@ -1,0 +1,190 @@
+/*GENERAL*/
+/*400/700/800*/
+body{
+    width: 90rem;
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Inter', sans-serif; 
+    border-right: 1px solid black;
+}
+
+h1{
+    color: hsl(240, 100%, 5%);
+    font-size: 3rem;
+    font-weight: 800;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+p{
+    color: hsl(233, 8%, 79%);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+header, section{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 4rem;
+}
+
+
+/********/
+/*HEADER*/
+/********/
+#links{
+    display: grid;
+    grid-template-columns: repeat(5, 5rem);
+    gap: 3rem;
+    float: right;
+    margin-top: 1rem;
+}
+
+/*********/
+/*SECTION*/
+/*********/
+/*****/
+/*TOP*/
+/*****/
+#top{
+    display: grid;
+    grid-template-columns: 56rem 24rem;
+    gap: 2rem;
+}
+
+/******/
+/*LEFT*/
+/******/
+#left img{
+    width: 56rem;
+    height: 20rem;
+}
+
+#titular{
+    display: grid;
+    grid-template-columns: 20rem 30rem;
+    gap: 3rem;
+}
+
+#titular p{
+    margin-top: 2rem;
+}
+
+button{
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    width: 12rem;
+    height: 3rem;
+    border: 0px;
+    margin-top: 1rem;
+}
+
+button:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+/*******/
+/*RIGHT*/
+/*******/
+#right{
+    background-color: hsl(240, 100%, 5%);
+    height: 34rem;
+}
+
+#right h2{
+    color: hsl(35, 77%, 62%);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#right a{
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#right a:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+#right p{
+    font-size: 1rem;
+}
+
+#right div, #right h2{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.new{
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    
+}
+/********/
+/*BOTTOM*/
+/********/
+#bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 24.6rem);
+    gap: 3rem;
+}
+
+#bottom img{
+    width: 8rem;
+    height: 9rem;
+    float: left;
+    margin-top: -10rem;
+}
+
+.top h2{
+    color: hsl(233, 8%, 79%);
+    margin-left: 9rem;
+}
+.top a{
+    color: hsl(240, 100%, 5%);
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-left: 9rem;
+}
+
+.top a:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.top p{
+    width: 17rem;
+    margin-left: 9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
